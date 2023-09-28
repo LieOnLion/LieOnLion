@@ -104,13 +104,24 @@ button:hover{
     header{
         padding: 10px 2.5%;
     }
+    .main{
+        margin: 1rem 1rem; 
+    }
+    .main div{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 2rem;
+    }
 }
 @media (width <= 401px) {
     header{
         padding: 10px 1%;
     }
-    li, a, button{
+    li, a, button, p{
         font-size: 13px;
+    }
+    h1{
+        font-size: 24px;
     }
     .logo{
         height: 3rem;
