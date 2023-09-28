@@ -29,6 +29,7 @@ header{
     align-items: center;
     padding: 20px 10%;
     background-color: var(--sc-colour);
+    box-shadow: 0 5px rgba(0, 0, 0, 0.4);
 }
 .logo{
     cursor: pointer;
