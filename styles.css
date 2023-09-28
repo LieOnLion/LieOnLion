@@ -113,6 +113,7 @@ button:hover{
 }
 .links li a .icon{
     transition: all 0.3s ease 0s;
+    padding: .5rem;
 }
 .links li a:hover .icon{
     transform: scale(1.2);
