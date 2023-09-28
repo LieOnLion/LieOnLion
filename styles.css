@@ -11,14 +11,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 16;
 }
 body{
     background-color: var(--bg-colour);
 }
-li, a, button{
+li, a, button, h1, p{
     font-family: 'Onest', sans-serif;
     font-weight: 500;
-    font-size: 16x;
     color: var(--text-colour);
     text-decoration: none;
     background-color: var(--sc-colour);
@@ -77,6 +77,24 @@ button{
 button:hover{
     background-color: var(--ac-colour);
     color: var(--bg-colour);
+}
+
+.main{
+    display: flex;
+    margin: 2rem 3rem;
+}
+.main div{
+    background-color: var(--sc-colour);
+    text-align: center;
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: 2rem;
+}
+.main div h1{
+    margin-bottom: 1rem;
+}
+.main div .last{
+    margin-top: 1rem;
 }
 
 @media (orientation: portrait) {
