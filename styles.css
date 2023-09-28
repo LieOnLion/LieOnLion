@@ -87,8 +87,10 @@ button:hover{
         padding: 10px 2.5%;
     }
 }
-
 @media (width <= 401px) {
+    header{
+        padding: 10px 1%;
+    }
     li, a, button{
         font-size: 13px;
     }
@@ -104,10 +106,12 @@ button:hover{
     .nav__links li{
         padding: 0 5px;
     }
-    header{
-        padding: 10px 1%;
-    }
     button{
         padding: 4.5px 12.5px;
+    }
+}
+@media (height <= 651px) {
+    header{
+        padding: 5px 5%;
     }
 }
