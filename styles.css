@@ -63,7 +63,7 @@ header{
     color: var(--ac-colour);
 }
 button{
-    padding: clamp(2px, 9px, 16px) 25px;
+    padding: 9px 25px;
     background-color: var(--pr-colour);
     border: none;
     border-radius: 50px;
@@ -102,5 +102,8 @@ button:hover{
     }
     header{
         padding: 10px 1%;
+    }
+    button{
+        padding: 4.5px 12.5px;
     }
 }
