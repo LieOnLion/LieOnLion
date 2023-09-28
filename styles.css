@@ -49,6 +49,8 @@ header{
     fill: var(--bg-colour);
 }
 .nav__links{
+    display: flex;
+    gap: .25rem;
     list-style: none;
     background-color: var(--bg-colour);
 }
@@ -86,7 +88,7 @@ button:hover{
 
 @media (width <= 401px) {
     li, a, button{
-        font-size: 15px;
+        font-size: 13px;
     }
     .logo{
         height: 3rem;
@@ -98,7 +100,7 @@ button:hover{
         width: 2.5rem;
     }
     .nav__links li{
-        padding: 0 2.5px;
+        padding: 0 5px;
     }
     header{
         padding: 10px 1%;
