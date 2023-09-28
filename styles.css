@@ -40,12 +40,12 @@ header{
     border-radius: 50%;
     transition: all 0.3s ease 0s;
 }
+.logo:hover{
+    background-color: var(--pr-colour);
+}
 .logosvg{
     fill: var(--pr-colour);
     transition: all 0.3s ease 0s;
-}
-.logo:hover{
-    background-color: var(--pr-colour);
 }
 .logo:hover .logosvg{
     fill: var(--bg-colour);
