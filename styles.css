@@ -45,8 +45,8 @@ header{
     transition: all 0.3s ease 0s;
 }
 .logo:hover, .logo:hover .logosvg{
-    fill: var(--bg-colour);
     background-color: var(--pr-colour);
+    fill: var(--bg-colour);
 }
 .nav__links{
     list-style: none;
