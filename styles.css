@@ -83,18 +83,42 @@ button:hover{
     display: flex;
     margin: 2rem 3rem;
 }
-.main div{
+.main .div{
     background-color: var(--sc-colour);
     text-align: center;
     width: 100%;
     padding: 2.5rem;
     border-radius: 2rem;
 }
-.main div h1{
+.main .div h1{
     margin-bottom: 1rem;
 }
-.main div .last{
+.main .div .last{
     margin-top: 1rem;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links li{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding: 1em;
+}
+.links li a{
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+.links li a .icon{
+    transition: all 0.3s ease 0s;
+}
+.links li a:hover .icon{
+    transform: scale(1.2);
+}
+.links li a .icon i{
+    font-size: 5rem;
 }
 
 @media (orientation: portrait) {
