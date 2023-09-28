@@ -75,9 +75,9 @@ button:hover{
     color: var(--bg-colour);
 }
 
-@media (width <= 586px) {
+@media (orientation: portrait) {
     .nav__links li{
-        padding: 0 5px !important;
+        padding: 0 5px;
     }
     header{
         padding: 10px 2.5%;
