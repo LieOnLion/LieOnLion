@@ -132,10 +132,21 @@ button:hover{
     .main{
         margin: 1rem 1rem; 
     }
-    .main div{
-        width: 100%;
+    .main .div{
         padding: 1rem;
-        border-radius: 2rem;
+        border-radius: 1rem;
+    }
+    .links li{
+        padding: .25em;
+    }
+    .links li a{
+        padding: 0;
+    }
+    .links li a .icon{
+        padding: 1rem;
+    }
+    .links li a .icon i{
+        font-size: 2rem;
     }
 }
 @media (width <= 401px) {
