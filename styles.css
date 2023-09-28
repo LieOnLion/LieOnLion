@@ -33,7 +33,7 @@ header{
 }
 .logo{
     cursor: pointer;
-    background-color: var(--pr-colour);
+    background-color: var(--bg-colour);
     height: 3.65rem;
     width: 3.65rem;
     padding: .25rem;
@@ -41,12 +41,12 @@ header{
     transition: all 0.3s ease 0s;
 }
 .logosvg{
-    fill: var(--bg-colour);
+    fill: var(--pr-colour);
     transition: all 0.3s ease 0s;
 }
 .logo:hover, .logo:hover .logosvg{
-    fill: var(--pr-colour);
-    background-color: var(--bg-colour);
+    fill: var(--bg-colour);
+    background-color: var(--pr-colour);
 }
 .nav__links{
     list-style: none;
