@@ -110,7 +110,7 @@ button:hover{
         padding: 4.5px 12.5px;
     }
 }
-@media (height <= 651px) {
+@media (height <= 701px) {
     header{
         padding: 5px 5%;
     }
