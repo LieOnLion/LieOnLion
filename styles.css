@@ -75,7 +75,7 @@ button:hover{
     color: var(--bg-colour);
 }
 
-@media (width <= 585px) {
+@media (width <= 586px) {
     .nav__links li{
         padding: 0 5px !important;
     }
