@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+#I am LieOnLion
+#I am a Mod developer for Minecraft
+
 <!--
 **LieOnLion/LieOnLion** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
