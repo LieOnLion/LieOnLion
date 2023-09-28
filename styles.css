@@ -83,3 +83,24 @@ button:hover{
         padding: 10px 2.5%;
     }
 }
+
+@media (width <= 401px) {
+    li, a, button{
+        font-size: 15px;
+    }
+    .logo{
+        height: 3rem;
+        width: 3rem;
+        padding: .25rem;
+    } 
+    .logosvg{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .nav__links li{
+        padding: 0 2.5px;
+    }
+    header{
+        padding: 10px 1%;
+    }
+}
