@@ -181,8 +181,8 @@ button:hover{
         font-size: 2rem;
     }
     .projects{
-        grid-template-columns: repeat(auto-fit, 175px);
-        grid-auto-rows: 175px;
+        grid-template-columns: repeat(auto-fit, 150px);
+        grid-auto-rows: 150px;
         gap: 0.75rem;
     }
     .projects-img{
@@ -194,7 +194,8 @@ button:hover{
         left: 0.5rem;
     }
     .double-line{
-        bottom: 5.25rem !important;
+        font-size: 1rem !important;
+        bottom: 4.75rem !important;
     }
     .overflow{
         bottom: 3.75rem !important;
@@ -224,6 +225,26 @@ button:hover{
     }
     button{
         padding: 4.5px 12.5px;
+    }
+    .projects{
+        grid-template-columns: repeat(auto-fit, 100px);
+        grid-auto-rows: 100px;
+        gap: 0.5rem;
+    }
+    .projects-img{
+        border-radius: 0.5rem;
+    }
+    .projects a div{
+        font-size: 0.75rem;
+        bottom: 1.5rem;
+        left: 0.5rem;
+    }
+    .double-line{
+        font-size: 0.5rem !important;
+        bottom: 2rem !important;
+    }
+    .overflow{
+        bottom: 2.5rem !important;
     }
 }
 @media (height <= 701px) {
