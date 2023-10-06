@@ -39,7 +39,7 @@ header{
     width: 3.65rem;
     padding: .25rem;
     border-radius: 50%;
-    transition: all 0.3s ease 0s;
+    animation: fade-down 0.5s;
 }
 .logo:hover{
     background-color: var(--pr-colour);
@@ -72,7 +72,7 @@ button{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    animation: fade-down 0.5s;
 }
 button:hover{
     background-color: var(--ac-colour);
@@ -260,6 +260,16 @@ button:hover{
     }
     50%{
         opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+@keyframes fade-down {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px) scale(0.8);
     }
     100%{
         opacity: 1;
