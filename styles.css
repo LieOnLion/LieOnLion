@@ -20,6 +20,7 @@ li, a, button, h1, p{
     font-family: 'Onest', sans-serif;
     font-weight: 500;
     color: var(--text-colour);
+    list-style: none;
     text-decoration: none;
     background-color: var(--sc-colour);
 }
@@ -53,7 +54,6 @@ header{
 .nav__links{
     display: flex;
     gap: .25rem;
-    list-style: none;
     background-color: var(--bg-colour);
 }
 .nav__links li{
@@ -104,7 +104,7 @@ button:hover{
     list-style: none;
     text-align: center;
     display: inline;
-    padding: 1em;
+    padding: 1rem;
 }
 .links li a{
     text-decoration: none;
@@ -120,6 +120,20 @@ button:hover{
 }
 .links li a .icon i{
     font-size: 5rem;
+}
+.projects{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 1rem;
+    justify-items: center;
+}
+.projects li, .projects li a{
+    background-color: var(--bg-colour);
+}
+.projects-img{
+    border-radius: 2rem;
 }
 
 @media (orientation: portrait) {
