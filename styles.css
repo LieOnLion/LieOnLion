@@ -82,6 +82,7 @@ button:hover{
 .main{
     display: flex;
     margin: 2rem 3rem;
+    justify-content: center;
 }
 .main .div{
     background-color: var(--sc-colour);
@@ -124,16 +125,33 @@ button:hover{
 .projects{
     width: 100%;
     display: grid;
-    grid-template-rows: repeat(auto-fit, 400px);
+    padding-left: auto;
     grid-template-columns: repeat(auto-fit, 400px);
+    grid-auto-rows: 400px;
     gap: 1rem;
-    justify-items: center;
+    justify-content: center; 
 }
-.projects li, .projects li a{
+.projects a{
     background-color: var(--bg-colour);
+    transition: 0.5s;
+    animation: fade-up 0.5s;
+}
+.projects a:hover{
+    transform: translateY(-0.75rem);
 }
 .projects-img{
+    height: 100%;
+    width: 100%;
     border-radius: 2rem;
+}
+.projects a div{
+    position: relative;
+    font-size: 2rem;
+    bottom: 4rem;
+    left: 2rem;
+}
+.double-line{
+    bottom: 6rem !important;
 }
 
 @media (orientation: portrait) {
@@ -162,8 +180,27 @@ button:hover{
     .links li a .icon i{
         font-size: 2rem;
     }
+    .projects{
+        grid-template-columns: repeat(auto-fit, 175px);
+        grid-auto-rows: 175px;
+        gap: 0.75rem;
+    }
+    .projects-img{
+        border-radius: 1rem;
+    }
+    .projects a div{
+        font-size: 1.25rem;
+        bottom: 2.25rem;
+        left: 0.5rem;
+    }
+    .double-line{
+        bottom: 5.25rem !important;
+    }
+    .overflow{
+        bottom: 3.75rem !important;
+    }
 }
-@media (width <= 401px) {
+@media (width <= 431px) {
     header{
         padding: 10px 1%;
     }
@@ -192,5 +229,19 @@ button:hover{
 @media (height <= 701px) {
     header{
         padding: 5px 5%;
+    }
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(50px) scale(0.8);
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
     }
 }
