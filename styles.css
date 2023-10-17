@@ -16,6 +16,24 @@
 body{
     background-color: var(--bg-colour);
 }
+
+::-webkit-scrollbar {
+    width: 1.25rem;
+}
+::-webkit-scrollbar-track {
+    background: var(--sc-colour);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--pr-colour);
+    border: .25rem solid var(--sc-colour);
+    border-radius: 100vw;
+}
+@supports (scrollbar-color: red blue) {
+    * {
+        scrollbar-color: var(--sc-colour) var(--pr-colour);
+    }
+}
+
 li, a, button, h1, p{
     font-family: "Rubik", sans-serif;
     font-weight: 500;
