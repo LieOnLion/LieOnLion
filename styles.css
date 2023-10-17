@@ -196,7 +196,7 @@ button:hover{
         grid-auto-rows: 150px;
         gap: 0.75rem;
     }
-    .projects-img{
+    .mods a{
         border-radius: 1rem;
     }
     .mods a div{
@@ -235,8 +235,8 @@ button:hover{
         grid-auto-rows: 100px;
         gap: 0.5rem;
     }
-    .projects-img{
-        border-radius: 0.5rem;
+    .mods a{
+        border-radius: .75rem;
     }
     .mods a div{
         font-size: 0.75rem;
