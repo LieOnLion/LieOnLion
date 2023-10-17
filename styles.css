@@ -28,6 +28,11 @@ body{
     border: .25vw solid var(--sc-colour);
     border-radius: 100vw;
 }
+::-webkit-scrollbar-thumb {
+    background: var(--ac-colour);
+    border: .1vw solid var(--sc-colour);
+    border-radius: 100vw;
+}
 @supports (scrollbar-color: red blue) {
     * {
         scrollbar-color: var(--pr-colour) var(--sc-colour);
