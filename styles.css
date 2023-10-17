@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 :root{
     --text-colour: #EDEDFF;
@@ -7,7 +7,7 @@
     --sc-colour: #27262f;
     --ac-colour: #713DFF;
 }
-* {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body{
     background-color: var(--bg-colour);
 }
 li, a, button, h1, p{
-    font-family: 'Onest', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 500;
     color: var(--text-colour);
     list-style: none;
@@ -132,6 +132,9 @@ button:hover{
     justify-content: center; 
 }
 .projects a{
+    display: flex;
+    border-radius: 2rem;
+    overflow: hidden;
     background-color: var(--bg-colour);
     transition: 0.5s;
     animation: fade-up 0.5s;
@@ -139,19 +142,11 @@ button:hover{
 .projects a:hover{
     transform: translateY(-0.75rem);
 }
-.projects-img{
-    height: 100%;
-    width: 100%;
-    border-radius: 2rem;
-}
 .projects a div{
-    position: relative;
     font-size: 2rem;
-    bottom: 4rem;
-    left: 2rem;
-}
-.double-line{
-    bottom: 6rem !important;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    align-self: flex-end;
 }
 
 @media (orientation: portrait) {
@@ -190,15 +185,8 @@ button:hover{
     }
     .projects a div{
         font-size: 1.25rem;
-        bottom: 2.25rem;
-        left: 0.5rem;
-    }
-    .double-line{
-        font-size: 1rem !important;
-        bottom: 4.75rem !important;
-    }
-    .overflow{
-        bottom: 3.75rem !important;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
 }
 @media (width <= 431px) {
@@ -236,15 +224,8 @@ button:hover{
     }
     .projects a div{
         font-size: 0.75rem;
-        bottom: 1.5rem;
-        left: 0.5rem;
-    }
-    .double-line{
-        font-size: 0.5rem !important;
-        bottom: 2rem !important;
-    }
-    .overflow{
-        bottom: 2.5rem !important;
+        margin-left: .5rem;
+        margin-bottom: .5rem;
     }
 }
 @media (height <= 701px) {
