@@ -24,6 +24,9 @@ li, a, button, h1, p{
     text-decoration: none;
     background-color: var(--sc-colour);
 }
+h1{
+    margin-bottom: 1rem;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -78,21 +81,17 @@ button:hover{
     background-color: var(--ac-colour);
     color: var(--bg-colour);
 }
-
 .main{
-    display: flex;
-    margin: 2rem 3rem;
-    justify-content: center;
+    margin: 0 3rem;
 }
-.main .div{
+.div{
     background-color: var(--sc-colour);
     text-align: center;
+    overflow: hidden;
     width: 100%;
+    margin: 2rem 0;
     padding: 2.5rem;
     border-radius: 2rem;
-}
-.main .div h1{
-    margin-bottom: 1rem;
 }
 .main .div .last{
     margin-top: 1rem;
@@ -122,16 +121,15 @@ button:hover{
 .links li a .icon i{
     font-size: 5rem;
 }
-.projects{
+.mods{
     width: 100%;
     display: grid;
-    padding-left: auto;
     grid-template-columns: repeat(auto-fit, 400px);
     grid-auto-rows: 400px;
     gap: 1rem;
     justify-content: center; 
 }
-.projects a{
+.mods a{
     display: flex;
     border-radius: 2rem;
     overflow: hidden;
@@ -139,10 +137,10 @@ button:hover{
     transition: 0.5s;
     animation: fade-up 0.5s;
 }
-.projects a:hover{
+.mods a:hover{
     transform: translateY(-0.75rem);
 }
-.projects a div{
+.mods a div{
     font-size: 2rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
@@ -175,7 +173,7 @@ button:hover{
     .links li a .icon i{
         font-size: 2rem;
     }
-    .projects{
+    .mods{
         grid-template-columns: repeat(auto-fit, 150px);
         grid-auto-rows: 150px;
         gap: 0.75rem;
@@ -183,7 +181,7 @@ button:hover{
     .projects-img{
         border-radius: 1rem;
     }
-    .projects a div{
+    .mods a div{
         font-size: 1.25rem;
         margin-left: 1rem;
         margin-bottom: 1rem;
@@ -214,7 +212,7 @@ button:hover{
     button{
         padding: 4.5px 12.5px;
     }
-    .projects{
+    .mods{
         grid-template-columns: repeat(auto-fit, 100px);
         grid-auto-rows: 100px;
         gap: 0.5rem;
@@ -222,7 +220,7 @@ button:hover{
     .projects-img{
         border-radius: 0.5rem;
     }
-    .projects a div{
+    .mods a div{
         font-size: 0.75rem;
         margin-left: .5rem;
         margin-bottom: .5rem;
