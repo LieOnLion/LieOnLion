@@ -30,7 +30,7 @@ body{
 }
 ::-webkit-scrollbar-thumb:hover {
     background: var(--ac-colour);
-    border: .2vw solid var(--sc-colour);
+    border: .225vw solid var(--sc-colour);
     border-radius: 100vw;
 }
 @supports (scrollbar-color: red blue) {
