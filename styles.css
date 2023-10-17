@@ -30,7 +30,7 @@ body{
 }
 @supports (scrollbar-color: red blue) {
     * {
-        scrollbar-color: var(--sc-colour) var(--pr-colour);
+        scrollbar-color: var(--pr-colour) var(--sc-colour);
     }
 }
 
