@@ -71,11 +71,11 @@ header{
     background-color: var(--pr-colour);
 }
 .logosvg{
-    fill: var(--pr-colour);
+    stroke: var(--pr-colour);
     transition: all 0.3s ease 0s;
 }
 .logo:hover .logosvg{
-    fill: var(--bg-colour);
+    stroke: var(--bg-colour);
 }
 .nav__links{
     display: flex;
@@ -121,7 +121,8 @@ button:hover{
     margin-top: 1rem;
 }
 .links{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 160px);
     justify-content: center;
 }
 .links li{
@@ -138,12 +139,25 @@ button:hover{
 .links li a .icon{
     transition: all 0.3s ease 0s;
     padding: .5rem;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+}
+.links li a .text{
+    transition: all 0.3s ease 0s;
+}
+.links li a:hover .text{
+    transform: translateY(.5rem) scale(2);
 }
 .links li a:hover .icon{
     transform: scale(1.2);
 }
 .links li a .icon i{
     font-size: 5rem;
+}
+.links li a .icon svg{
+    height: 5rem;
+    width: 5rem;
 }
 .mods{
     width: 100%;
@@ -186,6 +200,9 @@ button:hover{
         padding: 1rem;
         border-radius: 1rem;
     }
+    .links{
+        grid-template-columns: repeat(auto-fit, 104px);
+    }
     .links li{
         padding: .25em;
     }
@@ -197,6 +214,13 @@ button:hover{
     }
     .links li a .icon i{
         font-size: 2rem;
+    }
+    .links li a .icon svg{
+        height: 2rem;
+        width: 2rem;
+    }
+    .links li a:hover .text{
+        transform: translateY(-.5rem) scale(1.5);
     }
     .mods{
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -211,7 +235,7 @@ button:hover{
         margin-bottom: 1rem;
     }
 }
-@media (width <= 431px) {
+@media (width <= 501px) {
     header{
         padding: 10px 1%;
     }
