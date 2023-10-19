@@ -3,8 +3,8 @@
 :root{
     --text-colour: #EDEDFF;
     --bg-colour: #18161c;
+    --sc-colour: #292530;
     --pr-colour: #5C27CE;
-    --sc-colour: #27262f;
     --ac-colour: #713DFF;
 }
 *, *::before, *::after {
