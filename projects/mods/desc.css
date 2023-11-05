@@ -95,6 +95,23 @@
     text-decoration: underline;
 }
 
+@media (orientation: portrait) {
+    .mod-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .mod-wrapper .div {
+        margin: 0;
+        padding: 1.5rem;
+    }
+    .mod-side p {
+        font-size: 1rem;
+    }
+    .mod-side a {
+        font-size: 1rem;
+    }
+}
 @media (width <= 931px) {
     .mod-wrapper {
         display: grid;
