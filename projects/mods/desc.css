@@ -1,2 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 @import url(/LieOnLion/styles.css);
+:root{
+    --color-divider-dark: #646c75;
+    --text-colour: #EDEDFF;
+    --bg-colour: #19181e;
+    --sc-colour: #292631;
+    --pr-colour: #5C27CE;
+    --ac-colour: #713DFF;
+}
+* {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: var(--text-colour);
+}
+.mod-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 3rem;
+    gap: 3rem;
+}
+.mod-wrapper .div {
+    margin: 0;
+}
+.mod-desc div{
+    line-height: 0;
+}
+.mod-desc p {
+    line-height: 1.5;
+    padding: 0;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+.mod-desc img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.mod-desc h2 {
+    border-bottom: 1px solid var(--color-divider-dark);
+    padding: 10px 0 5px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: var(--text-colour);
+}
+.mod-desc h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.mod-desc table {
+    border: 0.05rem solid #4f5864;
+    border-collapse: separate;
+    border-radius: .75rem;
+    border-spacing: 0;
+    display: block;
+    line-height: 1.5;
+    max-width: 100%;
+    overflow: auto;
+    width: max-content;
+}
+.mod-desc tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.mod-desc tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.mod-desc table td, .mod-desc table th {
+    border: 0.05rem solid #4f5864;
+    padding: 0.4rem 0.85rem;
+}
+.mod-desc code {
+    background-color: var(--bg-colour);
+    border-radius: .75rem;
+    color: var(--color-code-text);
+    padding: 0.2em 0.4em;
+}
+
+@media (width <= 931px) {
+    .mod-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .mod-wrapper .div {
+        margin: 0;
+        padding: 1.5rem;
+    }
+}
+@media (width <= 401px) {
+    .mod-wrapper {
+        padding: 10px;
+    }
+}
