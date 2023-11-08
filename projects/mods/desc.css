@@ -73,7 +73,7 @@
 .mod-desc code {
     background-color: var(--bg-colour);
     border-radius: .75rem;
-    color: var(--ac-colour);
+    color: var(--text-colour);
     padding: 0.2em 0.4em;
 }
 
