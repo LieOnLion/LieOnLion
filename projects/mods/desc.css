@@ -2,11 +2,6 @@
 @import url(/LieOnLion/styles.css);
 :root{
     --color-divider-dark: #646c75;
-    --text-colour: #EDEDFF;
-    --bg-colour: #19181e;
-    --sc-colour: #292631;
-    --pr-colour: #5C27CE;
-    --ac-colour: #713DFF;
 }
 * {
     font-family: "Rubik", sans-serif;
@@ -36,8 +31,6 @@
     max-width: 100%;
     vertical-align: middle;
 }
-.mod-desc p a img {
-}
 .mod-desc h2 {
     border-bottom: 1px solid var(--color-divider-dark);
     padding: 10px 0 5px;
@@ -48,8 +41,7 @@
 .mod-desc h3 {
     display: block;
     font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-end: 8px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -81,7 +73,7 @@
 .mod-desc code {
     background-color: var(--bg-colour);
     border-radius: .75rem;
-    color: var(--color-code-text);
+    color: var(--ac-colour);
     padding: 0.2em 0.4em;
 }
 
@@ -131,7 +123,7 @@
         font-size: 1rem;
     }
 }
-@media (width <= 401px) {
+@media (width <= 501px) {
     .mod-wrapper {
         padding: 10px;
     }
