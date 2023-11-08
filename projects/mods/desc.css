@@ -36,6 +36,8 @@
     max-width: 100%;
     vertical-align: middle;
 }
+.mod-desc p a img {
+}
 .mod-desc h2 {
     border-bottom: 1px solid var(--color-divider-dark);
     padding: 10px 0 5px;
