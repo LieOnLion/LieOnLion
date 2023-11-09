@@ -32,12 +32,77 @@
 <h3>Recipes Changed</h3>
 
 <table><tbody>
-<tr><td><center><b>Hoppers</b></td></center><td><center>replaced Item <code>minecraft:chest</code></center></td>
-<td><center>with Tag <code>c:wooden_chests</code></center></td><tr>
-<tr><td><center><b>Shulker Boxers</b></center></td><td><center>replaced Item <code>minecraft:chest</code></center></td>
-<td><center>with Tag <code>c:wooden_chests</code></center></td><tr>
-<tr><td><center><b>Boat with Chests</b></center></td><td><center>replaced Item <code>minecraft:chest</code></center></td>
-<td><center>with Tag <code>c:wooden_chests</code></center></td><tr>
+<tr><th><center><u><b>Recipe Name</b></u></center></th>
+<th><center><u>Item replaced</u></center></th>
+<th><center><u>with Tag</u></center></th></tr>
+
+<tr><td colspan="3"></td></tr>
+
+<tr><td><center><b>Boat with Chest</b></center></td>
+<td rowspan="2"><center><code>minecraft:chest</code></center></td>
+<td rowspan="2"><center><code>c:wooden_chests</code></center></td></tr>
+<tr><td><center><b>Shulker Boxer</b></center></td></tr>
+
+<tr><td colspan="3"></td></tr>
+
+<tr><td rowspan="2"><center>Hopper</center></td>
+<td><center><code>minecraft:chest</code></center></td>
+<td><center><code>c:wooden_chests</code></center></td></tr>
+<tr><td><center><code>minecraft:iron_ingot</code></center></td>
+<td><center><code>c:iron_ingots</code></center></td></tr>
+
+<tr><td colspan="3"></td></tr>
+
+<tr><td><center><b>Activator Rail</b></center></td>
+<td rowspan="16"><center><code>minecraft:iron_ingot</code></center></td>
+<td rowspan="16"><center><code>c:iron_ingots</code></center></td></tr>
+<tr><td><center><b>Anvil</b></center></td></tr>
+<tr><td><center><b>Bucket</b></center></td></tr>
+<tr><td><center><b>Cauldron</b></center></td></tr>
+<tr><td><center><b>Chain</b></center></td></tr>
+<tr><td><center><b>Compass</b></center></td></tr>
+<tr><td><center><b>Crossbow</b></center></td></tr>
+<tr><td><center><b>Detector Rail</b></center></td></tr>
+<tr><td><center><b>Flint & Steel</b></center></td></tr>
+<tr><td><center><b>Heavy Weighted Pressure Plate</b></center></td></tr>
+<tr><td><center><b>Minecart</b></center></td></tr>
+<tr><td><center><b>Piston</b></center></td></tr>
+<tr><td><center><b>Rail</b></center></td></tr>
+<tr><td><center><b>Shears</b></center></td></tr>
+<tr><td><center><b>Shield</b></center></td></tr>
+<tr><td><center><b>Tripwire Hook</b></center></td></tr>
+
+<tr><td colspan="3"></td></tr>
+
+<tr><td><center><b>Clock</b></center></td>
+<td rowspan="5"><center><code>minecraft:gold_ingot</code></center></td>
+<td rowspan="5"><center><code>c:gold_ingots</code></center></td></tr>
+<tr><td><center><b>Golden Apple</b></center></td></tr>
+<tr><td><center><b>Light Weighted Pressure Plate</b></center></td></tr>
+<tr><td><center><b>Netherite ingot</b></center></td></tr>
+<tr><td><center><b>Powered Rail</b></center></td></tr>
+
+<tr><td colspan="3"></td></tr>
+
+<tr><td><center><b>Brush</b></center></td>
+<td rowspan="2"><center><code>minecraft:copper_ingot</code></center></td>
+<td rowspan="2"><center><code>c:copper_ingots</code></center></td></tr>
+<tr><td><center><b>Lightning Rod</b></center></td></tr>
+
+<tr><td colspan="3"></td></tr>
+
+<tr><td rowspan="2"><center><b>Spyglass</b></center></td>
+<td><center><code>minecraft:copper_ingot</code></center></td>
+<td><center><code>c:copper_ingots</code></center></td></tr>
+<tr><td><center><code>minecraft:amethyst_shard</code></center></td>
+<td><center><code>c:amethyst_shards</code></center></td></tr>
+
+<tr><td colspan="3"></td></tr>
+
+<tr><td><center><b>Calibrated Sculk Sensor</b></center></td>
+<td rowspan="2"><center><code>minecraft:amethyst_shard</code></center></td>
+<td rowspan="2"><center><code>c:amethyst_shards</code></center></td></tr>
+<tr><td><center><b>Tinted Glass</b></center></td></tr>
 </tbody></table>
 
 <p><br/></p>
@@ -45,15 +110,25 @@
 <h3>Recipes Added</h3>
 
 <table><tbody>
-<tr><td><center><b>Wood Fuel</b></td></center></td><td><center>burn time <code>300 ticks / 1.5 items</code></center></td>
-<td><center>uses Tag <code>quad:wood_fuel</code></center></td>
+<tr><th><center><u><b>Recipe Name</b></u></center></th>
+<th><center><u>Burn Time</u></center></th>
+<th><center><u>using Tag</u></center></th></tr>
+
+<tr><td colspan="3"></td></tr>
+
+<tr><td><center><b>Wood Fuel</b></center></td>
+<td><center><code>300 ticks / 1.5 items</code></center></td>
+<td><center><code>quad:wood_fuel</code></center></td></tr>
+<tr><td><center><b>Wood Tool Fuel</b></center></td>
+<td><center><code>200 ticks / 1 item</code></center></td>
+<td><center><code>quad:wood_tool_fuel</code></center></td></tr>
 </tbody></table>
 
 <p><br/></p>
 
-<p>Tags allow multiple possible items to be used in a Recipe instead of being fixed to 1 item.<br/>Tags are also easily changed by other mods, meaning any mod can use these features<br/>
-<br/>Tags with `fuel` in allow the items to burn in a furnace for the<br/>amount of ticks displayed - and amount of items that can be cooked<br/>
-<br/>Know a mod that could benefit from Quad? Join my discord for support requests.</p>
+<p>Tags allow multiple possible items to be used in a Recipe instead of being fixed to 1 item.<br/>
+Tags are also easily changed by other mods, meaning any mod can use these features<br/><br/>
+Know a mod that could benefit from Quad? Join my discord for support requests.</p>
 
 <p><img src="https://raw.githubusercontent.com/LieOnLion/LieOnLion/main/Universal/strip.png" width="900"/></p>
 
