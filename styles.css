@@ -33,7 +33,7 @@ body{
     border: .225vw solid var(--sc-colour);
     border-radius: 100vw;
 }
-@supports (scrollbar-color: red blue) {
+@supports (scrollbar-color: var(--pr-colour) var(--sc-colour)) {
     * {
         scrollbar-color: var(--pr-colour) var(--sc-colour);
     }
