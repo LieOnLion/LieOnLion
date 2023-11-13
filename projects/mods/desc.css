@@ -76,6 +76,16 @@
     color: var(--text-colour);
     padding: 0.2em 0.4em;
 }
+.mod-desc a {
+    color: var(--pr-colour);
+}
+.mod-desc a:hover img {
+    filter: brightness(1.2); 
+}
+.mod-desc a:hover {
+    color: var(--ac-colour);
+    text-decoration: underline;
+}
 
 .mod-side p {
     font-size: 2rem;
@@ -86,6 +96,9 @@
 .mod-side a {
     font-size: 2rem;
     color: var(--pr-colour);
+}
+.mod-side a:hover {
+    color: var(--ac-colour);
     text-decoration: underline;
 }
 
