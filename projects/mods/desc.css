@@ -11,7 +11,7 @@
 .mod-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 3rem;
+    padding: 3rem 9rem;
     gap: 3rem;
 }
 .mod-wrapper .div {
@@ -101,44 +101,32 @@
     color: var(--ac-colour);
     text-decoration: underline;
 }
-
+@media (width <= 1351px) {
+    .mod-wrapper {
+        grid-template-columns: 2fr 3fr;
+        padding: 2rem 5em;
+        gap: 1rem;
+    }
+    .mod-side p {
+        font-size: 1.25rem;
+    }
+    .mod-side a {
+        font-size: 1.25rem;
+    }
+}
 @media (orientation: portrait) {
     .mod-wrapper {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    .mod-wrapper .div {
-        margin: 0;
-        padding: 1.5rem;
-    }
-    .mod-side p {
-        font-size: 1rem;
-    }
-    .mod-side a {
-        font-size: 1rem;
-    }
-}
-@media (width <= 931px) {
-    .mod-wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    .mod-wrapper .div {
-        margin: 0;
-        padding: 1.5rem;
-    }
-    .mod-side p {
-        font-size: 1rem;
-    }
-    .mod-side a {
-        font-size: 1rem;
-    }
-}
-@media (width <= 501px) {
-    .mod-wrapper {
         padding: 10px;
+        gap: 1rem;
+    }
+    .mod-wrapper .div:nth-child(1) {
+        margin-top: 5px;
+    }
+    .mod-wrapper .div {
+        margin: 0;
+        padding: 1.5rem;
     }
     .mod-side p {
         font-size: 1rem;
