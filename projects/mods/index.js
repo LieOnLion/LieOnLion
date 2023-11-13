@@ -21,16 +21,9 @@ let getModrinthData = async function (id) {
     return await fetch(`https://api.modrinth.com/v2/project/${(id)}`).then(res => res.json()).catch(error => error);
 }
 
-let getCurseforgeData = async function (id) {
-    return await fetch(`https://api.curseforge.com/v1/mods/${(id)}`).then(res => res.json()).catch(error => error);
-}
-
-async function setData (md, cf) {
+async function setData (md) {
     let modrinth = document.getElementById("modrinth");
-    let curseForge = document.getElementById("curseforge");
 
     let getModrintDw = await getModrinthData(md).then(data => data.downloads);
     modrinth.innerHTML = parseFloat(getModrintDw).toLocaleString('en');
-    let getCurseforgeDw = await getCurseforgeData(cf).then(data => data.downloads);
-    curseForge.innerHTML = `${getCurseforgeDw}`;
 }
