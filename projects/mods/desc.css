@@ -72,7 +72,7 @@
 }
 .mod-desc code {
     background-color: var(--bg-colour);
-    border-radius: .75rem;
+    border-radius: 1vw;
     color: var(--text-colour);
     padding: 0.2em 0.4em;
 }
@@ -87,6 +87,15 @@
     text-decoration: underline;
 }
 
+.mod-side {
+    text-align: start;
+}
+.mod-side div {
+    font-size: 2rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: end;
+}
 .mod-side p {
     font-size: 2rem;
     margin: 0.5rem;
@@ -100,6 +109,18 @@
 .mod-side a:hover {
     color: var(--ac-colour);
     text-decoration: underline;
+}
+.mod-side img{
+    height: 96px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.mod-side code {
+    font-size: 1.5rem;
+    background-color: var(--bg-colour);
+    border-radius: 1vw;
+    color: var(--text-colour);
+    padding: 0.2em 0.4em;
 }
 @media (width <= 1351px) {
     .mod-wrapper {

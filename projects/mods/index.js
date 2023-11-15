@@ -21,9 +21,11 @@ let getModrinthData = async function (id) {
     return await fetch(`https://api.modrinth.com/v2/project/${(id)}`).then(res => res.json()).catch(error => error);
 }
 
-async function setData (md) {
+async function setData () {
     let modrinth = document.getElementById("modrinth");
+    let modId = document.getElementById("mod-id").innerHTML;
 
-    let getModrintDw = await getModrinthData(md).then(data => data.downloads);
+    let getModrintDw = await getModrinthData(modId).then(data => data.downloads);
     modrinth.innerHTML = parseFloat(getModrintDw).toLocaleString('en');
+    console.log(document.getElementById("mod-id").innerHTML)
 }
