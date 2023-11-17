@@ -72,7 +72,7 @@
 }
 .mod-desc code {
     background-color: var(--bg-colour);
-    border-radius: 1vw;
+    border-radius: 100vw;
     color: var(--text-colour);
     padding: 0.2em 0.4em;
 }
@@ -118,7 +118,7 @@
 .mod-side code {
     font-size: 1.5rem;
     background-color: var(--bg-colour);
-    border-radius: 1vw;
+    border-radius: 100vw;
     color: var(--text-colour);
     padding: 0.2em 0.4em;
 }
