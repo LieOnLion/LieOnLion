@@ -178,7 +178,7 @@ button:hover{
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
 }
 .footer-section-container {
     display: flex;
@@ -266,9 +266,6 @@ button:hover{
         margin-left: 1rem;
         margin-bottom: 1rem;
     }
-    #footer{
-        gap: 3rem;
-    }
     .footer-section-container {
         align-items: center;
         gap: 2rem;
@@ -318,6 +315,9 @@ button:hover{
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+    }
+    .footer-section-container img {
+        width: 85px;
     }
 }
 @media (height <= 701px) {
