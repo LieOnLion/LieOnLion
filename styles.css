@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
 
 :root{
     --text-colour: #EDEDFF;
@@ -61,25 +61,6 @@ header{
     padding: 20px 5%;
     background-color: var(--sc-colour);
     box-shadow: 0 5px rgba(0, 0, 0, 0.4);
-}
-.logo{
-    cursor: pointer;
-    background-color: var(--bg-colour);
-    height: 3.65rem;
-    width: 3.65rem;
-    padding: .25rem;
-    border-radius: 50%;
-    animation: fade-down 0.5s;
-}
-.logo:hover{
-    background-color: var(--pr-colour);
-}
-.logosvg{
-    stroke: var(--pr-colour);
-    transition: all 0.3s ease 0s;
-}
-.logo:hover .logosvg{
-    stroke: var(--bg-colour);
 }
 .nav__links{
     display: flex;
@@ -192,10 +173,49 @@ button:hover{
 
 #footer{
     margin-top: auto;
-    display: flex;
-    justify-content: space-around;
     background-color: var(--sc-colour);
-    padding: 1rem 0;
+    padding: 1.5rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.footer-section-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.footer-section-container img {
+    width: 100px;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.footer-section div {
+    font-family: "Rubik", sans-serif;
+    color: var(--text-colour);
+    margin-bottom: 0.25rem;
+}
+.footer-section a{
+    font-weight: 300;
+}
+.footer-section .footer-section-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.45rem;
+}
+.footer-section-social {
+    display: flex;
+    gap: 20px;
+}
+.footer-section-social i {
+    font-size: 2rem;
+}
+.footer-copyright{
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    color: var(--text-colour);
 }
 
 @media (orientation: portrait) {
@@ -245,6 +265,10 @@ button:hover{
         font-size: clamp(10px, 5vw, 20px);
         margin-left: 1rem;
         margin-bottom: 1rem;
+    }
+    .footer-section-container {
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media (width <= 501px) {
