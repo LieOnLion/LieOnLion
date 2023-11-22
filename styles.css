@@ -270,12 +270,11 @@ button:hover{
         gap: 3rem;
     }
     .footer-section-container {
-        flex-direction: column;
         align-items: center;
         gap: 2rem;
     }
 }
-@media (width <= 501px) {
+@media (width <= 601px) {
     header{
         padding: 10px 1%;
     }
@@ -311,6 +310,14 @@ button:hover{
         font-size: clamp(10px, 8vw, 17px);
         margin-left: .5rem;
         margin-bottom: .5rem;
+    }
+    #footer{
+        gap: 3rem;
+    }
+    .footer-section-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
     }
 }
 @media (height <= 701px) {
