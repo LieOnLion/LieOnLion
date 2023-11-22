@@ -241,6 +241,9 @@ button:hover{
         padding: 1rem;
         border-radius: 1rem;
     }
+    .flex{
+        flex-direction: column;
+    }
     .links{
         grid-template-columns: repeat(auto-fit, 104px);
     }
@@ -295,9 +298,6 @@ button:hover{
     }
     button{
         padding: 4.5px 12.5px;
-    }
-    .flex{
-        flex-direction: column;
     }
     .mods{
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
