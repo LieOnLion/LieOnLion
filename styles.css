@@ -43,7 +43,7 @@ body{
     flex-direction: column;
     min-height: 100svh;
 }
-li, a, button, h1, p{
+li, a, button, h1, h3, p{
     font-family: "Rubik", sans-serif;
     font-weight: 500;
     color: var(--text-colour);
@@ -53,6 +53,10 @@ li, a, button, h1, p{
 }
 h1{
     margin-bottom: 1rem;
+}
+h3{
+    font-weight: 700;
+    margin: 0.5rem 0;
 }
 header{
     display: flex;
