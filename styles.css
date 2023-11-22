@@ -109,6 +109,11 @@ button:hover{
 .main .div .last{
     margin-top: 1rem;
 }
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
 .links{
     display: grid;
     grid-template-columns: repeat(auto-fit, 160px);
@@ -285,20 +290,14 @@ button:hover{
     h1{
         font-size: 24px;
     }
-    .logo{
-        height: 3rem;
-        width: 3rem;
-        padding: .25rem;
-    } 
-    .logosvg{
-        height: 2.5rem;
-        width: 2.5rem;
-    }
     .nav__links li{
         padding: 0 5px;
     }
     button{
         padding: 4.5px 12.5px;
+    }
+    .flex{
+        flex-direction: column;
     }
     .mods{
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
