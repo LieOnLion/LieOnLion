@@ -66,6 +66,9 @@
     vertical-align: inherit;
     border-color: inherit;
 }
+.mod-desc tr:nth-child(even) {
+    background-color: black;
+}
 .mod-desc table td, .mod-desc table th {
     border: 0.05rem solid #4f5864;
     padding: 0.4rem 0.85rem;

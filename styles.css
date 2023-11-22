@@ -38,7 +38,11 @@ body{
         scrollbar-color: var(--pr-colour) var(--sc-colour);
     }
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+}
 li, a, button, h1, p{
     font-family: "Rubik", sans-serif;
     font-weight: 500;
@@ -184,6 +188,14 @@ button:hover{
     margin-bottom: 2rem;
     align-self: flex-end;
     text-align: left;
+}
+
+#footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--sc-colour);
+    padding: 1rem 0;
 }
 
 @media (orientation: portrait) {
