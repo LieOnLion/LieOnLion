@@ -1,4 +1,4 @@
-async function loadHTML() {
+async function loadInfo() {
     let header = document.getElementById("header");
     let headerFile = "/LieOnLion/stuff/header.html";
     let footer = document.getElementById("footer");
@@ -26,3 +26,5 @@ async function loadHTML() {
     }
     loadFooter();
 }
+
+loadInfo();
