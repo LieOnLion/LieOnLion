@@ -221,6 +221,7 @@ button:hover{
     font-size: 2rem;
 }
 .footer-copyright{
+    font-size: 1.25rem;
     font-weight: 700;
     font-family: "Rubik", sans-serif;
     color: var(--text-colour);
