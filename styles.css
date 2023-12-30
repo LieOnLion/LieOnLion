@@ -193,8 +193,12 @@ button:hover{
     justify-content: center;
     gap: 5rem;
 }
-.footer-section-container img {
+.footer-section-container img, .footer-section-container svg {
     width: 100px;
+    height: 100px;
+}
+.footer-section-container svg use {
+    fill: var(--pr-colour);
 }
 .footer-section {
     display: flex;
