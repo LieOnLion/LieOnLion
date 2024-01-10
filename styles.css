@@ -224,6 +224,14 @@ button:hover{
 .footer-section-social i {
     font-size: 2rem;
 }
+.footer-section-social svg {
+    width: 2rem;
+    height: 2rem;
+}
+.footer-section-social svg use{
+    fill: var(--text-colour);
+    transform: scale(0.64);
+}
 .footer-copyright{
     font-size: 1.25rem;
     font-weight: 700;
