@@ -154,24 +154,24 @@ button:hover{
     height: 5rem;
     width: 5rem;
 }
-.mods{
+.project-divs{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.25fr));
     gap: 1rem;
     justify-content: center; 
 }
-.mods a{
+.project-divs a{
     display: flex;
     border-radius: 2rem;
     aspect-ratio: 1 / 1;
     overflow: hidden;
     background-color: var(--bg-colour);
 }
-.mods a:hover{
+.project-divs a:hover{
     transform: translateY(-0.75rem);
 }
-.mods a div{
+.project-divs a div{
     font-size: 2rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
@@ -278,14 +278,14 @@ button:hover{
     .links li a:hover .text{
         transform: translateY(-.5rem) scale(1.5);
     }
-    .mods{
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    .project-divs{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 0.5fr));
         gap: 0.75rem;
     }
-    .mods a{
+    .project-divs a{
         border-radius: 1rem;
     }
-    .mods a div{
+    .project-divs a div{
         font-size: clamp(10px, 5vw, 20px);
         margin-left: 1rem;
         margin-bottom: 1rem;
@@ -321,14 +321,14 @@ button:hover{
     button{
         padding: 4.5px 12.5px;
     }
-    .mods{
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    .project-divs{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 0.5fr));
         gap: 0.5rem;
     }
-    .mods a{
+    .project-divs a{
         border-radius: .75rem;
     }
-    .mods a div{
+    .project-divs a div{
         font-size: clamp(10px, 8vw, 17px);
         margin-left: .5rem;
         margin-bottom: .5rem;
