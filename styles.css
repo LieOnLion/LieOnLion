@@ -163,6 +163,7 @@ button:hover{
 }
 .project-divs a{
     display: flex;
+    padding: 1rem;
     border-radius: 2rem;
     aspect-ratio: 1 / 1;
     overflow: hidden;
@@ -173,8 +174,6 @@ button:hover{
 }
 .project-divs a div{
     font-size: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
     align-self: flex-end;
     text-align: left;
 }
@@ -279,7 +278,7 @@ button:hover{
         transform: translateY(-.5rem) scale(1.5);
     }
     .project-divs{
-        grid-template-columns: repeat(auto-fit, minmax(150px, 0.5fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 0.25fr));
         gap: 0.75rem;
     }
     .project-divs a{
@@ -287,8 +286,6 @@ button:hover{
     }
     .project-divs a div{
         font-size: clamp(10px, 5vw, 20px);
-        margin-left: 1rem;
-        margin-bottom: 1rem;
     }
     #footer{
         gap: 3rem;
@@ -322,16 +319,15 @@ button:hover{
         padding: 4.5px 12.5px;
     }
     .project-divs{
-        grid-template-columns: repeat(auto-fit, minmax(100px, 0.5fr));
+        grid-template-columns: repeat(auto-fit, minmax(125px, 0.25fr));
         gap: 0.5rem;
     }
     .project-divs a{
+        padding: 0.5rem;
         border-radius: .75rem;
     }
     .project-divs a div{
         font-size: clamp(10px, 8vw, 17px);
-        margin-left: .5rem;
-        margin-bottom: .5rem;
     }
 }
 @media (height <= 701px) {
