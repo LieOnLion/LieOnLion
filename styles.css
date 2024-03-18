@@ -238,6 +238,16 @@ button:hover{
     color: var(--text-colour);
 }
 
+.drop {
+    animation: dropIn 1s ease forwards;
+    animation-delay: calc(var(--order) * 100ms);
+}
+
+@keyframes dropIn {
+    from {transform: translateY(-250px);}
+    to {transform: translateY(0px);}
+}
+
 @media (orientation: portrait) {
     .nav__links li{
         padding: 0 5px;
