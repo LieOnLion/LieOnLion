@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url(/LieOnLion/theme-vars.css);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: var(--text-colour);
+    list-style: none;
+    text-decoration: none;
+    background-color: var(--sc-colour);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    background:radial-gradient(var(--background-extra-colour) 5%, var(--background-0-colour) 20%);
+    background-size: var(--padding-medium-2) var(--padding-medium-2);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem clamp(var(--padding-medium-0), calc((100dvw - 112.5rem) / 2), 100dvw);
+    background-color: var(--background-1-colour);
+    border-bottom: 2px solid var(--background-2-colour);
+    box-shadow: 0 5px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header button {
+    padding: 9px 25px;
+    background-color: var(--primary-colour);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.header button:hover {
+    background-color: var(--accent-colour);
+    box-shadow: 0 0 2rem var(--accent-colour);
+    color: var(--background-1-colour);
+}
+
+.nav {
+    display: flex;
+}
+.nav li {
+    padding: 0 var(--padding-medium-0);
+
+}
+.nav li:not(:last-child) {
+    border-right: 0.25rem var(--background-0-colour) solid;
+}
+.nav li a {
+    font-size: clamp(var(--padding-small-extra-crazy), var(--padding-small), var(--padding-large));
+    transition: all 0.25s ease 0s;
+}
+.nav li a:hover {
+    color: var(--accent-colour);
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: var(--padding-small) var(--padding-medium-0);
+    padding: clamp(var(--padding-small-extra), 1dvw, var(--padding-medium-2)) clamp(var(--padding-small-extra), calc((100dvw - 100rem) / 2), 100dvw);
+}
+
+.main-home {
+    grid-row: span 2;
+}
+
+.main-home, .main-top, .main-bottom {
+    background: var(--background-1-colour);
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    padding: var(--padding-medium-2) var(--padding-small);
+    border: 2px solid var(--background-2-colour);
+    border-radius: var(--padding-medium-0);
+}
+
+.main-home h1 {
+    margin-bottom: var(--padding-medium-0);
+}
+.main-home p:not(:last-child) {
+    line-height: var(--padding-medium-0);
+    margin-bottom: var(--padding-small);
+}
+
+.footer{
+    margin-top: auto;
+    background-color: var(--background-1-colour);
+    border-top: 2px solid var(--background-2-colour);
+    padding: 1.5rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer-section-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.footer-section-container img, .footer-section-container svg {
+    width: 100px;
+    height: 100px;
+}
+.footer-section-container svg use {
+    fill: var(--primary-colour);
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.footer-section div {
+    font-family: "Rubik", sans-serif;
+    color: var(--text-colour);
+    margin-bottom: 0.25rem;
+}
+.footer-section a{
+    font-weight: 300;
+}
+.footer-section .footer-section-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.45rem;
+}
+.footer-section-social {
+    display: flex;
+    gap: 20px;
+}
+.footer-section-social i {
+    font-size: 2rem;
+}
+.footer-section-social svg {
+    width: 2rem;
+    height: 2rem;
+}
+.footer-section-social svg use{
+    fill: var(--text-colour);
+    transform: scale(0.64);
+}
+.footer-copyright{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    color: var(--text-colour);
+}
+
+.drop {
+    transform: translateY(-250px);
+    animation: In 1s calc(var(--order) * 100ms) ease forwards;
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: In 1s calc(var(--order) * 150ms) ease forwards;
+}
+
+.slide-up {
+    transform: translateY(50px);
+    animation: In 1s calc(var(--order) * 150ms) ease forwards;
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: In 1s calc(var(--order) * 100ms) ease forwards;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: In 1s calc(var(--order) * 100ms) ease forwards;
+}
+
+@keyframes In {
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

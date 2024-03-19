@@ -1,0 +1,27 @@
+:root {
+    --background-black-colour: #000000;
+    --background-extra-colour: #0c0c0c;
+    --background-0-colour: #0f0f0f;
+    --background-1-colour: #212121;
+    --background-2-colour: #2b2b2b;
+    --background-3-colour: #313131;
+    --background-4-colour: #414141;
+    --background-5-colour: #515151;
+    --background-6-colour: #9c9c9c;
+    --background-7-colour: #c0c0c0;
+    --background-8-colour: #d1d1d1;
+    --background-9-colour: #dfdfe8;
+    --text-colour: #ededff;
+    --primary-colour: #5c27ce;
+    --accent-colour: #713dff;
+
+    --padding-small-extra-crazy: 0.25rem;
+    --padding-small-extra: 0.5rem;
+    --padding-small: 1.0rem;
+    --padding-medium-0: 1.5rem;
+    --padding-medium-1: 2.0rem;
+    --padding-medium-2: 2.5rem;
+    --padding-large: 5rem;
+    --padding-large-extra: 7.5rem;
+    --padding-large-extra-crazy: 10rem;
+}
