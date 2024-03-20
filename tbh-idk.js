@@ -5,8 +5,6 @@ let footer = document.getElementsByClassName("footer");
 let footerFile = "/LieOnLion/stuff/footer.html";
 
 const loadHeader = () => {
-    console.info(header)
-
     fetch(`${headerFile}`).then(res => {
         if (res.ok) {
             return res.text();
@@ -23,6 +21,7 @@ const loadFooter = () => {
             return res.text();
         }
     }).then(html => {
+        console.info(html)
         footer[0].innerHTML = html;
     })
 }
