@@ -15,13 +15,14 @@
     --primary-colour: #5c27ce;
     --accent-colour: #713dff;
 
-    --padding-small-extra-crazy: 0.25rem;
-    --padding-small-extra: 0.5rem;
-    --padding-small: 1.0rem;
+    --padding-small-0: 0.25rem;
+    --padding-small-1: 0.5rem;
+    --padding-small-2: 1.25rem;
+    --padding-small-3: 1.0rem;
     --padding-medium-0: 1.5rem;
     --padding-medium-1: 2.0rem;
     --padding-medium-2: 2.5rem;
-    --padding-large: 5rem;
-    --padding-large-extra: 7.5rem;
-    --padding-large-extra-crazy: 10rem;
+    --padding-large-0: 5rem;
+    --padding-large-1: 7.5rem;
+    --padding-large-2: 10rem;
 }

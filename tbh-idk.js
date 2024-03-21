@@ -21,7 +21,6 @@ const loadFooter = () => {
             return res.text();
         }
     }).then(html => {
-        console.info(html)
         footer[0].innerHTML = html;
     })
 }
