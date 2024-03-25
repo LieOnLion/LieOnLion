@@ -40,11 +40,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
-
     background:radial-gradient(var(--background-extra-colour) 5%, var(--background-0-colour) 20%);
     background-size: var(--padding-medium-2) var(--padding-medium-2);
-
-    
 }
 
 .header {
@@ -125,11 +122,9 @@ body:not(:has(.main-grid)) .main-home{
 
 .footer{
     margin-top: auto;
-
     background: var(--background-1-colour) url(images/lieonstudios-background.svg);
     background-size: var(--padding-large-2) var(--padding-large-2);
     background-position: 12.5% 12.5%;
-
     border-top: 2px solid var(--background-2-colour);
     padding: 1.5rem 0;
     text-align: center;
