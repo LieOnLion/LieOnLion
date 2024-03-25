@@ -36,16 +36,36 @@
     }
 } */
 
-body {
+.flex {
+    display: flex;
+}
+.flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.logo-bg {
+    background: var(--background-1-colour) url(images/lieonstudios-background.svg);
+    background-size: var(--padding-large-3) var(--padding-large-3);
+    background-position: var(--padding-small-0);
+}
+
+.out-line {
+    border: 2px solid var(--background-2-colour);
+}
+
+.main {
+    padding: clamp(var(--padding-small-1), 1dvw, var(--padding-medium-2)) clamp(var(--padding-small-1), calc((100dvw - 100rem) / 2), 100dvw);
+    margin-bottom: var(--padding-large-1);
+}
+
+body {
     min-height: 100dvh;
     background:radial-gradient(var(--background-extra-colour) 5%, var(--background-0-colour) 20%);
     background-size: var(--padding-medium-2) var(--padding-medium-2);
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem clamp(var(--padding-medium-0), calc((100dvw - 112.5rem) / 2), 100dvw);
@@ -64,9 +84,6 @@ body {
     cursor: pointer;
 }
 
-.nav {
-    display: flex;
-}
 .nav li {
     padding: 0 var(--padding-medium-0);
 }
@@ -86,12 +103,6 @@ body {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: var(--padding-small-3) var(--padding-medium-0);
-    padding: clamp(var(--padding-small-1), 1dvw, var(--padding-medium-2)) clamp(var(--padding-small-1), calc((100dvw - 100rem) / 2), 100dvw);
-}
-
-body:not(:has(.main-grid)) .main-home{
-    width: auto;
-    margin: clamp(var(--padding-small-1), 1dvw, var(--padding-medium-2)) clamp(var(--padding-small-1), calc((100dvw - 100rem) / 2), 100dvw);
 }
 
 .main-home {
@@ -104,12 +115,7 @@ body:not(:has(.main-grid)) .main-home{
     overflow: hidden;
     width: 100%;
     padding: var(--padding-medium-2) var(--padding-small-3);
-    border: 2px solid var(--background-2-colour);
     border-radius: var(--padding-medium-0);
-}
-
-.main-home:last-of-type {
-    margin-bottom: var(--padding-large-1) !important;
 }
 
 .main-home h1 {
@@ -122,18 +128,12 @@ body:not(:has(.main-grid)) .main-home{
 
 .footer{
     margin-top: auto;
-    background: var(--background-1-colour) url(images/lieonstudios-background.svg);
-    background-size: var(--padding-large-3) var(--padding-large-3);
-    background-position: var(--padding-small-0);
     border-top: 2px solid var(--background-2-colour);
     padding: 1.5rem 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     gap: 1rem;
 }
 .footer-section-container {
-    display: flex;
     justify-content: center;
     gap: 5rem;
 }
@@ -146,8 +146,6 @@ body:not(:has(.main-grid)) .main-home{
     fill: var(--primary-colour);
 }
 .footer-section {
-    display: flex;
-    flex-direction: column;
     text-align: start;
 }
 .footer-section div {
@@ -163,7 +161,6 @@ body:not(:has(.main-grid)) .main-home{
     margin-bottom: var(--padding-small-1);
 }
 .footer-section-social {
-    display: flex;
     gap: var(--padding-medium-0);
 }
 .footer-section-social i {
