@@ -123,8 +123,8 @@ body:not(:has(.main-grid)) .main-home{
 .footer{
     margin-top: auto;
     background: var(--background-1-colour) url(images/lieonstudios-background.svg);
-    background-size: var(--padding-large-2) var(--padding-large-2);
-    background-position: 12.5% 12.5%;
+    background-size: var(--padding-large-3) var(--padding-large-3);
+    background-position: var(--padding-small-0);
     border-top: 2px solid var(--background-2-colour);
     padding: 1.5rem 0;
     text-align: center;
