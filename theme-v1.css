@@ -40,8 +40,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
+
     background:radial-gradient(var(--background-extra-colour) 5%, var(--background-0-colour) 20%);
     background-size: var(--padding-medium-2) var(--padding-medium-2);
+
+    
 }
 
 .header {
@@ -74,7 +77,7 @@ body {
     border-right: 0.25rem var(--background-0-colour) solid;
 }
 .nav li a {
-    font-size: clamp(var(--padding-small-0), var(--padding-small-3), var(--padding-large));
+    font-size: clamp(var(--padding-small-0), var(--padding-small-3), var(--padding-large-0));
     transition: all 0.25s ease 0s;
 }
 .nav li a:hover {
@@ -122,7 +125,11 @@ body:not(:has(.main-grid)) .main-home{
 
 .footer{
     margin-top: auto;
-    background-color: var(--background-1-colour);
+
+    background: var(--background-1-colour) url(images/lieonstudios-background.svg);
+    background-size: var(--padding-large-2) var(--padding-large-2);
+    background-position: 12.5% 12.5%;
+
     border-top: 2px solid var(--background-2-colour);
     padding: 1.5rem 0;
     text-align: center;
