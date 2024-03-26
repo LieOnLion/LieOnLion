@@ -76,7 +76,7 @@ body {
 }
 
 .nav_button {
-    padding: 9px 25px;
+    padding: 9px var(--padding-medium-0);
     background-color: var(--primary-colour);
     border-radius: 50px;
     cursor: pointer;
@@ -137,7 +137,6 @@ body {
     gap: 5rem;
 }
 .footer-section-container svg {
-    transition: all 250ms ease;
     width: 100px;
     height: 100px;
 }
@@ -181,6 +180,28 @@ body {
 
 
 @media (orientation: portrait) {
+    .main {
+        padding: clamp(var(--padding-small-1), 1dvw, var(--padding-medium-2)) clamp(var(--padding-small-1), calc((100dvw - 35rem) / 2), 100dvw);
+    }
+    .footer-section-container {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--padding-medium-0);
+    }
+}
+
+@media (width <= 400px) {
+    .nav {
+        flex-direction: column;
+        gap: var(--padding-small-1);
+    }
+    .nav li {
+        border-right: 0px !important;
+        border-left: var(--padding-small-0) var(--background-0-colour) solid;
+    }
+    .nav li a {
+        font-size: var(--padding-small-3);
+    }
     .footer-section-container {
         flex-direction: column;
         align-items: center;
