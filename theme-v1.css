@@ -134,7 +134,7 @@ body {
 }
 .footer-section-container {
     justify-content: center;
-    gap: 5rem;
+    gap: clamp(var(--padding-small-0), 5vw, 5rem);
 }
 .footer-section-container svg {
     width: 100px;
@@ -183,10 +183,20 @@ body {
     .main {
         padding: clamp(var(--padding-small-1), 1dvw, var(--padding-medium-2)) clamp(var(--padding-small-1), calc((100dvw - 35rem) / 2), 100dvw);
     }
+}
+
+@media (width <= 575px) {
     .footer-section-container {
         flex-direction: column;
         align-items: center;
         gap: var(--padding-medium-0);
+    }
+    .footer-section svg {
+        width: var(--padding-large-0);
+        height: var(--padding-large-0);
+    }
+    .footer-section svg use {
+        scale: 72%
     }
 }
 
