@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
 @import url(/LieOnLion/theme-v1-vars.css);
 
-*, *::before, *::after {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-weight: 500;
     color: var(--text-colour);
+    font-family: "Rubik", sans-serif;
     border: none;
     list-style: none;
     text-decoration: none;
-}
-*:not(i), *:not(i)::before, *:not(i)::after {
-    font-family: "Rubik", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -44,6 +42,11 @@
     flex-direction: column;
 }
 
+.main {
+    padding: clamp(var(--padding-small-1), 1dvw, var(--padding-medium-2)) clamp(var(--padding-small-1), calc((100dvw - 100rem) / 2), 100dvw);
+    margin-bottom: var(--padding-large-1);
+}
+
 .logo-bg {
     background: var(--background-1-colour) url(images/lieonstudios-background.svg);
     background-size: var(--padding-large-3) var(--padding-large-3);
@@ -52,11 +55,6 @@
 
 .out-line {
     border: 2px solid var(--background-2-colour);
-}
-
-.main {
-    padding: clamp(var(--padding-small-1), 1dvw, var(--padding-medium-2)) clamp(var(--padding-small-1), calc((100dvw - 100rem) / 2), 100dvw);
-    margin-bottom: var(--padding-large-1);
 }
 
 body {
@@ -91,7 +89,7 @@ body {
     border-right: 0.25rem var(--background-0-colour) solid;
 }
 .nav li a {
-    font-size: clamp(var(--padding-small-0), var(--padding-small-3), var(--padding-large-0));
+    font-size: var(--padding-small-2);
     transition: all 0.25s ease 0s;
 }
 .nav li a:hover {
@@ -116,6 +114,7 @@ body {
     width: 100%;
     padding: var(--padding-medium-2) var(--padding-small-3);
     border-radius: var(--padding-medium-0);
+    font-size: var(--padding-small-2);
 }
 
 .main-home h1 {
@@ -157,8 +156,8 @@ body {
     font-weight: 300;
 }
 .footer-section .footer-section-title {
-    font-size: var(--padding-small-2);
-    margin-bottom: var(--padding-small-1);
+    font-size: var(--padding-small-3);
+    margin-bottom: var(--padding-small-2);
 }
 .footer-section-social {
     gap: var(--padding-medium-0);
@@ -179,6 +178,16 @@ body {
     font-weight: 700;
     color: var(--text-colour);
 }
+
+
+@media (orientation: portrait) {
+    .footer-section-container {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--padding-medium-0);
+    }
+}
+
 
 .drop {
     transform: translateY(-250px);
