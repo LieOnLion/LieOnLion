@@ -1,6 +1,6 @@
-## Hi 👋 I am LieOnLion
+## Hi 👋 I'm LieOnLion
 
-### A Minecraft mod and (kinda) software developer
+### Minecraft mod and (kinda) software developer
 
 My mods have a total of over 2.0 million downloads on Curseforge and Modrinth, and I am currently working on making an app, in Rust with Tauri, to speed up the process to upload new versions to both sites :).
 
