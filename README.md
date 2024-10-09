@@ -1,4 +1,4 @@
-## Hi 👋 I'm LieOnLion
+# Hi 👋 I'm LieOnLion
 
 ### Minecraft mod and (kinda) software developer
 
