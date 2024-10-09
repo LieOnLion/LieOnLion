@@ -9,8 +9,8 @@ My mods have a total of over 2.0 million downloads on Curseforge and Modrinth, a
 - ❤️ (but) I'm loving **Rust**
 
 ### Github Statistics
-![github-status](https://github-readme-stats.vercel.app/api?username=lieonlion&show_icons=true&locale=en&theme=midnight-purple)
-![used-languages](https://github-readme-stats.vercel.app/api/top-langs?username=lieonlion&locale=en&layout=compact&theme=midnight-purple)
+![github-status](https://github-readme-stats.vercel.app/api?username=lieonlion&show_icons=true&locale=en&title_color=5C27CE&bg_color=112&text_color=ffffff&icon_color=5c27ce&border_color=000)
+![used-languages](https://github-readme-stats.vercel.app/api/top-langs?username=lieonlion&locale=en&layout=compact&title_color=5C27CE&bg_color=112&text_color=ffffff&icon_color=5c27ce&border_color=000)
 
 ### Socials:
 
