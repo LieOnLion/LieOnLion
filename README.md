@@ -8,6 +8,14 @@ My mods have a total of over 2.0 million downloads on Curseforge and Modrinth, a
 - 😓 Struggling with **Rust**
 - ❤️ (but) I'm loving **Rust**
 
+### Stuff I Use
+
+[![vs-codium](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/vscodium.svg)](https://vscodium.com/)
+[![intelli-j](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/intellij.svg)](https://www.jetbrains.com/idea/)
+[![py-charm](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/pycharm.svg)](https://www.jetbrains.com/pycharm/)
+[![java](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/built-with/java_vector.svg)](https://www.java.com/en/)
+[![python](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/python.svg)](https://www.python.org/)
+
 ### Github Statistics
 
 ![github-status](https://github-readme-stats.vercel.app/api?username=lieonlion&show_icons=true&locale=en&title_color=5C27CE&bg_color=11111d&text_color=ffffff&icon_color=5c27ce&border_color=000)
