@@ -10,6 +10,7 @@ My mods have a total of over 2.0 million downloads on Curseforge and Modrinth, a
 
 ### Stuff I Use
 
+[![github](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/github_vector.svg)](https://github.com/)
 [![vs-codium](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/vscodium.svg)](https://vscodium.com/)
 [![intelli-j](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/intellij.svg)](https://www.jetbrains.com/idea/)
 [![py-charm](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/pycharm.svg)](https://www.jetbrains.com/pycharm/)
@@ -18,6 +19,7 @@ My mods have a total of over 2.0 million downloads on Curseforge and Modrinth, a
 [![react](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/react.svg)](https://react.dev/)
 [![java](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/built-with/java_vector.svg)](https://www.java.com/en/)
 [![python](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/python.svg)](https://www.python.org/)
+[![rust](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/rust.svg)](https://www.rust-lang.org/)
 
 ### Github Statistics
 
