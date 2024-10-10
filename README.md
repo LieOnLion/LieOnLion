@@ -13,6 +13,9 @@ My mods have a total of over 2.0 million downloads on Curseforge and Modrinth, a
 [![vs-codium](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/vscodium.svg)](https://vscodium.com/)
 [![intelli-j](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/intellij.svg)](https://www.jetbrains.com/idea/)
 [![py-charm](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/pycharm.svg)](https://www.jetbrains.com/pycharm/)
+[![tauri](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/tauri.svg)](https://v2.tauri.app/)
+[![vite](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/vite.svg)](https://vite.dev/)
+[![react](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/react.svg)](https://react.dev/)
 [![java](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/built-with/java_vector.svg)](https://www.java.com/en/)
 [![python](https://lieon-studio.github.io/assets/v1/badge/compact-minimal/svg/python.svg)](https://www.python.org/)
 
