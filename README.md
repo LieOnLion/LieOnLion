@@ -34,6 +34,6 @@ My mods have a total of over 2.0 million downloads on Curseforge and Modrinth, a
 
 ![github-status](https://github-readme-stats.vercel.app/api?username=lieonlion&show_icons=true&locale=en&title_color=5C27CE&bg_color=11111d&text_color=ffffff&icon_color=5c27ce&border_color=000)
 ![used-languages](https://github-readme-stats.vercel.app/api/top-langs?username=lieonlion&locale=en&layout=compact&title_color=5C27CE&bg_color=11111d&text_color=ffffff&icon_color=5c27ce&border_color=000)
-![github-snake](https://raw.githubusercontent.com/LieOnLion/LieOnLion/25ab2537bda523bf68c9f2d93a1ea9168422f483/snake.svg)
+![github-snake](https://raw.githubusercontent.com/LieOnLion/LieOnLion/refs/heads/output/snake.svg)
 
 ### The End .o.
