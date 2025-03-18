@@ -17,19 +17,22 @@ My mods have a total of over 3.3 million downloads on Curseforge and Modrinth. C
 
 ### Stuff I Use
 
+[![arch_linux](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/arch.svg)](https://archlinux.org/)
 [![github](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/github_vector.svg)](https://github.com/)
-[![vs-codium](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/vscodium.svg)](https://vscodium.com/)
-[![intelli-j](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/intellij.svg)](https://www.jetbrains.com/idea/)
-[![py-charm](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/pycharm.svg)](https://www.jetbrains.com/pycharm/)
+[![vs_codium](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/vscodium.svg)](https://vscodium.com/)
+[![intelli_j](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/intellij.svg)](https://www.jetbrains.com/idea/)
 [![figma](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/figma.svg)](https://figma.com/)
 [![tauri](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/tauri.svg)](https://v2.tauri.app/)
 [![vite](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/vite.svg)](https://vite.dev/)
+[![solid_js](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/solidjs.svg)](https://solidjs.com/)
 [![react](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/react.svg)](https://react.dev/)
 [![tailwind](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/tailwind.svg)](https://tailwindcss.com/)
 [![javascript](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/javascript.svg)](https://www.javascript.com/)
 [![rust](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/rust.svg)](https://www.rust-lang.org/)
 [![java](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/built-with/java_vector.svg)](https://www.java.com/en/)
 [![python](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/python.svg)](https://www.python.org/)
+
+I use Arch, btw.
 
 ### Github Statistics
 
