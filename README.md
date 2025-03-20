@@ -17,7 +17,7 @@ My mods have a total of over 3.3 million downloads on Curseforge and Modrinth. C
 
 ### Stuff I Use
 
-[![arch_linux](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/arch.svg)](https://archlinux.org/)
+[![arch_linux](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/arch.svg)](https://wiki.archlinux.org/title/Frequently_asked_questions#Why_would_I_want_to_use_Arch?)
 [![github](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/github_vector.svg)](https://github.com/)
 [![vs_codium](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/vscodium.svg)](https://vscodium.com/)
 [![intelli_j](https://lieonstudios.github.io/assets/v1/badge/compact-minimal/svg/intellij.svg)](https://www.jetbrains.com/idea/)
